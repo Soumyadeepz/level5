@@ -5,7 +5,7 @@ on:
       - main
 jobs:
   deploy:
-    runs_on: ubuntu-latest #jakhan deploy hobe github ubuntu machine sob action perform korbe
+    runs-on: ubuntu-latest #jakhan deploy hobe github ubuntu machine sob action perform korbe
     steps:
       - name: checkout code # check korbe code a kono problem ache naki
         uses: actions/checkout@v6 # checkaut korbe 
